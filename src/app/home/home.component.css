@@ -1,0 +1,129 @@
+.d-flex{
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.sidebar{
+  min-width: 220px;
+  max-width: 220px;
+  min-height: 100vh;
+  transition: margin .4s ease-in-out;
+  z-index: 2;
+  background: #2e3e4e;
+}
+
+.sidebar.toggled {
+  margin-left: -220px;
+}
+
+.sidebar .sidebar-content {
+  background: #2e3e4e;
+}
+
+.sidebar-nav {
+  padding-bottom: 3.5rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar-link, a.sidebar-link {
+  text-decoration: none;
+  color: #f8f9fa;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  outline: none !important;
+  vertical-align: middle;
+  padding: 0.75rem 1.25rem;
+}
+
+.sidebar-link:hover, a.sidebar-link:hover {
+  background-color:#232c35;
+  color: #f8f9fa;
+}
+
+.sidebar-header {
+  background: transparent;
+  color: #adb5bd;
+  padding: .375rem 1.25rem;
+  font-size: .75rem;
+}
+
+a.sidebar-brand {
+  font-weight: 800;
+  font-size: 1.4rem;
+  padding: 1.15rem 1.25rem;
+  color: #f8f9fa;
+  display: block;
+}
+
+a.sidebar-brand:hover {
+  color: #f8f9fa;
+}
+
+.main{
+  width: 100%;
+}
+
+.navbar {
+  border-bottom: 1px solid #dee2e6;
+  box-shadow: 0 0.05rem 0.2rem rgba(0,0,0,.05);
+  padding: .75rem 1.25rem;
+}
+
+.avatar {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  width: 40px !important;
+  height: 40px;
+}
+
+.sidebar-toggle{
+  width: 26px;
+  height: 26px;
+}
+
+.nav-icon {
+  padding: .1rem .75rem;
+  display: block;
+  font-size: 1.5rem;
+  color: #6c757d !important;
+  transition: background .1s ease-in-out,color .1s ease-in-out;
+  cursor: pointer;
+}
+
+.dropdown-toggle::after{
+  border: 0px !important;
+}
+
+.dropdown-menu-header {
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.dropdown-menu-lg {
+  min-width: 285px;
+}
+
+.dropdown-menu-footer {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.content {
+  padding: 1.5rem;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

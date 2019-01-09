@@ -1,0 +1,9 @@
+version:  '3.6'
+
+services:
+  dev:
+    image: diecamdia/angular7-dev
+    volumes:
+      - ./:/source/
+    ports:
+      - "4200:4200"

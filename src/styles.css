@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+html, body {
+    height: 100%;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: Poppins;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.btn-pill {
+    border-radius: 10rem;
+}
+
+.fs-3{
+    font-size: 1.3rem;
+}
+
+.form-action{
+    padding: 20px;
+    margin: 1.25rem -1.25rem -1.25rem -1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
